@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscripción</title>
+    <link rel="icon" type="image/png" href="imagenes/icono.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Playfair+Display&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <main class="main">
+            <h1 id="title">Aprenda a codificar observando a los demás</h1> </br>
+                <p id="paragraph">Vea como los desarrolladores con más experiencia 
+                    resuelven problemas en tiempo real. Ver tutoriales
+                    con guión es genial, pero comprender cómo piensan los
+                    desarrolladores es invaluable. </p>
+        </main>
+    
+        <aside class="aside">
+            <div class="textBox" id="textBox"><strong>Pruébalo gratis 7 días</strong> y después de eso $20/mes.</div>
+    
+            <form action="" class="form" id="form">
+                
+                <div class="form__group" id="group__name">
+                    <input type="text" class="form__input" name="name" id="name" placeholder="Nombre">
+                    <i class="form__validation-state fas fa-times-circle"></i>
+                    <p class="form__input-error">El nombre solo puede contener letras y espacios.</p>
+                </div>
+
+                <div class="form__group" id="group__surnames">
+                    <input type="text" class="form__input" name="surnames" id="surnames" placeholder="Apellidos">
+                    <i class="form__validation-state fas fa-times-circle"></i>
+                    <p class="form__input-error">Los apellidos solo pueden contener letras y espacios.</p>
+                </div>
+                
+                <div class="form__group" id="group__email">
+                    <input type="email" class="form__input" name="email" id="email" placeholder="Correo">
+                    <i class="form__validation-state fas fa-times-circle"></i>
+                    <p class="form__input-error">El correo solo puede contener letras, números, puntos, guiones y guion bajo.</p>
+                </div>
+                
+                <div class="form__group" id="group__password">
+                    <input type="password" class="form__input" name="password" id="password" placeholder="Contraseña">
+                    <i class="form__validation-state fas fa-times-circle"></i>
+                    <p class="form__input-error">La contraseña debe tener entre 8 y 16 caracteres, 
+                        al menos un dígito, una minúscula y una mayúscula.</p>
+                </div>
+
+                <div class="form__menssage" id="form__menssage">
+                    <p>
+                        <i class="fas fa-exclamation-triangle"></i><b> Error: </b>Por favor ingresa los datos correctos.
+                    </p>
+                </div>
+                
+                <div class="form__group" >
+                    <button type="submit" class="form__button">Inicia prueba gratuita</button>
+                    <p class="form__menssage-succes" id="form__menssage-succes">¡Felicidades has iniciado tu periodo de prueba!</p>
+                    <p class="terms">Al hacer click en el botón aceptas nuestros <strong id="red"> Términos y Condiciones.</strong></p>
+                </div>
+
+            </form>
+            
+        </aside>
+    </div>
+
+    <script src="js/validation.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+</html>
