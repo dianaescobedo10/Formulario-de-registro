@@ -29,7 +29,7 @@ Cree este formulario con el fin de poner en práctica mis conocimientos en HTML,
 - Cuando todos los campos estan correctamente llenados es posible la suscripción.
 ![foto5](https://user-images.githubusercontent.com/71404702/100481708-9bbf7c00-30ba-11eb-89cf-6530ecf58f56.PNG)
 
--Cuando das click en *“Iniciar prueba gratuita"* y los campos son correctos estos se reinician y aparece un mensaje de confirmación.
+- Cuando das click en *“Iniciar prueba gratuita"* y los campos son correctos estos se reinician y aparece un mensaje de confirmación.
 
 ![foto6](https://user-images.githubusercontent.com/71404702/100481826-0f618900-30bb-11eb-9eec-26b2069d0b6d.PNG)
 
